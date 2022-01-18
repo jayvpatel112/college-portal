@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} NewsPost {% endblock title %}
+
+{% block body %} 
+
+<div class="container my-3">
+<div class="news-post">
+        <h2 class="news-post-title">{{post.title}}</h2>
+        <hr>
+        <p>{{post.content}}</p>
+        <hr>
+      </div>
+      </div>
+
+{% endblock body %}
